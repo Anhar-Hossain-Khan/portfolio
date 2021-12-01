@@ -22,12 +22,13 @@
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#about" class="menu-btn">About Me</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Projects</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#blogs" class="menu-btn">Blogs</a></li>
                 <li><a href="#contact" class="menu-btn">Contact Form</a></li>
-                <li><a href="https://drive.google.com/file/d/1ULdxpWU_hlpBtPVT5vHM2VwgdWonG-GJ/view" class="menu-btn">Download Cv</a></li>
+                <li><a href="https://drive.google.com/file/d/1ULdxpWU_hlpBtPVT5vHM2VwgdWonG-GJ/view" class="menu-btn">Download Resume</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -58,7 +59,7 @@
                 <div class="column right">
                     <div class="text">I'm Md. Anhar Hossain Khan and I'm a <span class="typing-2"></span></div>
                     <p>I completed my BSC Computer Science and Engineering Department from Daffodil International University. My passion is Web Development.I completed my Web Development Course from Programming Hero.My Home town is Gazipur, Dhaka, Bangladesh</p>
-                    <a href="https://drive.google.com/file/d/1ULdxpWU_hlpBtPVT5vHM2VwgdWonG-GJ/view">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1ULdxpWU_hlpBtPVT5vHM2VwgdWonG-GJ/view">Download Resume</a>
                 </div>
             </div>
         </div>
@@ -102,7 +103,12 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p><b>Expertise:</b> Html5, CSS3, Tailwind CSS, Bootstrap5, Javascript, Rest API, React JS, React Bootstrap, Material UI, React Router, Firebase Authentication.</p>
+                    <br>
+                    <p><b>Familiar With:</b> Node JS, Express JS, MongoDB, Next JS, Axios, React Native, JWT, Jquery, Payment Gateway System.</p>
+                    <br>
+                    <p><b>Tools:</b> Visual Studio Code, GitHub, Figma, Netlify, Heroku, Firebase, Chrome Dev Tool.</p>
+        
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
@@ -148,7 +154,7 @@
     </section>
 
     <!-- projects section start -->
-    <section class="teams" id="teams">
+    <section class="projects" id="projects">
         <div class="max-width">
             <h2 class="title">My Projects</h2>
             <div class="carousel owl-carousel">
@@ -182,6 +188,18 @@
         </div>
     </section>
 
+    <!-- Blogs section start -->
+    <section class="skills" id="blogs">
+        <div class="max-width">
+            <h2 class="title">My Blogs</h2>
+            <div class="skills-content">
+                <h1 class="blogs">Blogs are Coming Soon!!!!</h1>
+                
+            </div>
+        </div>
+    </section>
+
+
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
@@ -189,13 +207,13 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <p>Please feel free to contact me if you need any further information. Please let me know if you have any questions. I hope the above is useful to you. Should you need any further information, please do not hesitate to contact me.</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Anhar Hossain Khan</div>
+                                <div class="sub-title">Md. Anhar Hossain Khan</div>
                             </div>
                         </div>
                         <div class="row">
@@ -216,33 +234,35 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form  action="https://formspree.io/f/mjvlbpqk" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="Name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" name="_replyto" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="Subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
+
                     </form>
                 </div>
             </div>
         </div>
+        
     </section>
 
     <!-- footer section start -->
     <footer>
-        <span>Copyright</a> | <span class="far fa-copyright"></span>@ All rights reserved Anhar Khan 2021.</span>
+        <span>Copyright</a></span>@ All rights reserved Anhar Khan 2021.</span>
     </footer>
 
     <script src="script.js"></script>
